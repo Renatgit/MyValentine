@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Pangolin&display=swap');
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #ffa4bc;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.content_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: auto;   
+
+}
+.content_block{
+    width: 1100px;
+    height: 800px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_header{
+    font-family: 'Pangolin', serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+.sub_header{
+    display: none;
+    font-family: 'Pangolin', serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.rabbit_image{
+    display: block;
+    margin-bottom: -50px;
+    width: 400px;
+    height: auto;
+}
+
+.first_kitty{
+    display: none;
+    width: 350px;
+    height: auto;
+}
+.second_kitty{
+    display: none;
+    width: 350px;
+    height: auto;
+}
+.third_kitty{
+    display: none;
+    width: 350px;
+    height: auto;
+}
+.fourth_kitty{
+    display: none;
+    width: 350px;
+    height: auto;
+}
+.fifth_kitty{
+    display: none;
+    width: 350px;
+    height: auto;
+}
+.sixth_kitty{
+    display: none;
+    width: 350px;
+    height: auto;
+}
+.seventh_kitty{
+    display: none;
+    width: 350px;
+    height: auto;
+}
+.eighth_kitty{
+    display: none;
+    width: 350px;
+    height: auto;
+}
+.ninth_kitty {
+    display: none;
+    width: 550px;
+    height: auto;
+}
+
+
+.button_yes{
+    display: block;
+    border-color: transparent;
+    border-radius: 20px;
+    width: 200px;
+    height: 70px;
+    margin-right: 10px;
+    margin-top: 0px;
+
+    color: white;
+    background-color: #6aff6a;
+
+    font-family: 'Pangolin', serif;
+    font-size: 36px;
+    font-weight: 800;
+    scale: 1;
+
+    transition-duration: 0.4s;
+
+}
+.button_yes:hover{
+    background-color: #2aff2a;
+}
+.button_yes:active{
+    transition-duration: 0.1s;
+    background-color: #00e100;
+}
+
+.button_no{
+    display: block;
+    position: relative;
+    left: 0%;
+    top: 0%;
+    border-color: transparent;
+    border-radius: 20px;
+    width: 200px;
+    height: 70px;
+    margin-left: 10px;
+
+    color: white;
+    background-color: rgb(254, 104, 104);
+
+    font-family: 'Pangolin', serif;
+    font-size: 36px;
+    font-weight: 800;
+    scale: 1;
+
+    transition-duration: 0.4s;
+    z-index: 999;
+}
+.button_no:hover{
+    background-color: rgb(248, 81, 81);
+}
+.button_no:active{
+    transition-duration: 0.1s;
+    background-color: rgb(193, 57, 57);
+}
+
+
+.hearts_left{
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.hearts_left{
+    display: block;
+}
+.hearts_right{
+    display: block;
+}
+
+.hearts_left_gif{
+    display: none;
+}
+.hearts_right_gif{
+    display: none;
+}
+
+.picsOnSides_pair1_left {
+    display: none;
+    width: 300px;
+    height: auto;
+    transform: rotate(-10deg);
+}
+
+.picsOnSides_pair1_right {
+    display: none;
+    width: 300px;
+    height: auto;
+    transform: rotate(10deg);
+
+}
+
+.picsOnSides_pair2_left {
+    display: none;
+    width: 300px;
+    height: auto;
+    transform: rotate(-10deg);
+}
+
+.picsOnSides_pair2_right {
+    display: none;
+    width: 300px;
+    height: auto;
+    transform: rotate(10deg);
+
+}
+
+.picsOnSides_pair3_left {
+    display: none;
+    width: 300px;
+    height: auto;
+    transform: rotate(-10deg);
+}
+
+.picsOnSides_pair3_right {
+    display: none;
+    width: 300px;
+    height: auto;
+    transform: rotate(10deg);
+
+}
+
+.picsOnSides_pair4_left {
+    display: none;
+    width: 300px;
+    height: auto;
+    transform: rotate(-10deg);
+}
+
+.picsOnSides_pair4_right {
+    display: none;
+    width: 300px;
+    height: auto;
+    transform: rotate(10deg);
+
+}
+.icon{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-top: 0px;
+
+    transition-duration: 5s;
+}
+.icon_dis{
+    display: none;
+
+    transition-duration: 5s;
+}
+
+.answer_buttons{
+    display: none;
+    width: auto;
+    
+    flex-direction: row;
+    justify-content: center;
+
+    transition-duration: 2s;
+}

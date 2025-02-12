@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyValentine</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/letter-l-with-red-heart-monogram-l-heart-icon-vector.jpg" type="image/x-icon">
+</head>
+<body>
+    <audio  id="bgAudio" autoplay muted>
+        <source src="audio/Surf_Curse_-_Disco_Lyrics.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <button id="playButton" style="display: none">Play Music</button>
+    
+    <div class="content_wrapper">
+        <div class="hearts_left">
+            <img src="images/pair1-1.jpg" alt="" class="picsOnSides_pair1_left" id="picsOnSides_pair1_left">
+            <img src="images/pair2-1.jpg" alt="" class="picsOnSides_pair2_left" id="picsOnSides_pair2_left">
+            <img src="images/pair3-1.jpg" alt="" class="picsOnSides_pair3_left" id="picsOnSides_pair3_left">
+            <img src="images/pair4-1.jpg" alt="" class="picsOnSides_pair4_left" id="picsOnSides_pair4_left">
+            <img src="images/hearts.gif" alt="" class="hearts_left_gif" id="hearts_left">
+        </div>
+        <div class="content_block">
+            <img src="images/valentines-day-rabbit.gif" alt="" class="rabbit_image" id="firstPic">
+            <img src="images/733054972b22fa2425c59b3ded104092.jpg" alt="" class="first_kitty" id="secondPic">
+            <img src="images/8d38b80bef672537035be1bfd9942f2b.jpg" alt="" class="second_kitty" id="thirdPic">
+            <img src="images/sadsad.jpg" alt="" class="third_kitty" id="fourthPic">
+            <img src="images/angry.jpg" alt="" class="fourth_kitty" id="fifthPic">
+            <img src="images/nerd.jpg" alt="" class="fifth_kitty" id="sixthPic">
+            <img src="images/jail.jpg" alt="" class="sixth_kitty" id="seventhPic">
+            <img src="images/miss.jpg" alt="" class="seventh_kitty" id="eightPic">
+            <img src="images/hooray.jpg" alt="" class="eighth_kitty" id="ninthPic">
+            <img src="images/victory.jpg" alt="" class="ninth_kitty" id="tenthPic">
+            <p class="main_header" id="main_header">Will you be my Valentine?</p>
+            <p class="sub_header" id="sub_header">♡♡♡ LEE-LEE ♡♡♡</p>
+            <script src="https://cdn.lordicon.com/lordicon.js"></script>
+            <lord-icon
+                src="https://cdn.lordicon.com/qfwgmyhc.json"
+                trigger="click"
+                colors="primary:#ff475d,secondary:#ffffff"
+                class="icon"
+                id="icon"
+                onclick="Start()">
+            </lord-icon>
+            <div class="answer_buttons" id="answer_buttons">
+                <button class="button_yes" id="button_yes" onclick="finalClick()">YES</button>
+                <button class="button_no" id="button_no" onclick="increaseFn()">NO</button>
+            </div>
+        </div>
+        <div class="hearts_right">
+            <img src="images/pair1-2.jpg" alt="" class="picsOnSides_pair1_right" id="picsOnSides_pair1_right">
+            <img src="images/pair2-2.jpg" alt="" class="picsOnSides_pair2_right" id="picsOnSides_pair2_right">
+            <img src="images/pair3-2.jpg" alt="" class="picsOnSides_pair3_right" id="picsOnSides_pair3_right">
+            <img src="images/pair4-2.jpg" alt="" class="picsOnSides_pair4_right" id="picsOnSides_pair4_right">
+            <img src="images/hearts.gif" alt="" class="hearts_right_gif" id="hearts_right">
+        </div>
+    </div>
+    <script src="js/js.js"></script>
+</body>
+</html>
